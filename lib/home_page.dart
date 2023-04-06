@@ -63,14 +63,6 @@ class _HomePageState extends State<HomePage> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    ElevatedButton(
-                      onPressed: () {
-                        Actions.invoke(
-                            context, IncrementIntent()
-                        );
-                      },
-                      child: const Text('+'),
-                    ),
                   ],
                 ),
               ),
